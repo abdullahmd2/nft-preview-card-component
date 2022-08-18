@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+    height: 1px;
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    margin-bottom: 5px;
+}
+
+.price-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.time-left {
+    display: flex;
+    align-items: center;
+}
+
+.price-time img {
+    margin: 0 7px 0 0;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
